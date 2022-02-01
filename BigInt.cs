@@ -321,7 +321,7 @@ public class BigInt
     public BigInt ModOfPower(BigInt Base, BigInt Power, BigInt M)
     {
         BigInt result = new BigInt(); 
-        if(IsZero(Power)) // O(P) ==> a7eh
+        if(IsZero(Power)) // O(P) 
         {
             result.Input(1);
             return result;
